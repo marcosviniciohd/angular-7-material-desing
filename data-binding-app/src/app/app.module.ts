@@ -12,6 +12,7 @@ import {MatInputModule} from '@angular/material/input';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { StringInterpolationRevisionComponent } from './string-interpolation-revision/string-interpolation-revision.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     CardStringInterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
+    StringInterpolationRevisionComponent,
   ],
   imports: [
     BrowserModule,
