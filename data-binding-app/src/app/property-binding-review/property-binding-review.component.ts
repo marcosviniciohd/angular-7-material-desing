@@ -9,10 +9,15 @@ export class PropertyBindingReviewComponent implements OnInit {
 
   color: string = 'accent';
   btnDisabled: boolean = true;
+  colors = ['primary', 'secondary', 'accent', 'warn', 'light'];
+  idx = 0;
 
   constructor() { }
 
   ngOnInit(): void {
+    setInterval(() => {
+      this.idx = (this.idx + 1) % this.colors.length;
+    }, 1000);
   }
 
   ativarBotao(): void {
