@@ -1,2 +1,21 @@
-<h1>{{ pessoa.nome }}</h1>
-<h1>{{ pessoa.sobreNome }}</h1>
+<!-- <h1>{{ pessoa.nome }}</h1>
+<h1>{{ pessoa.sobreNome }}</h1> -->
+<mat-card class="container">
+    <mat-card-header>
+        <mat-card-title>Dados pessoais</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Nome: {{pessoa.nome}}</p>
+      <p>Sobrenome: {{pessoa.sobreNome}}</p>
+      <p>idade: {{pessoa.idade}}</p>
+      <p>Endereço: {{pessoa.endereco}}</p>
+    </mat-card-content>
+    <mat-card-actions align="start">
+        <!-- <button mat-button (click)="">Enviar</button> -->
+    </mat-card-actions>
+</mat-card>
+
+<mat-form-field appearance="fill">
+  <mat-label>{{pessoa.nome}}</mat-label>
+  <input matInput placeholder="Placeholder">
+</mat-form-field>

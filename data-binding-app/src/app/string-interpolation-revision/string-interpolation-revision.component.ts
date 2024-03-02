@@ -12,6 +12,8 @@ export class StringInterpolationRevisionComponent implements OnInit {
   pessoa = {
     nome: 'Marcos',
     sobreNome: 'Vinício',
+    idade: 37,
+    endereco: 'Rua 1, nº 1'
   }
 
   constructor() { }
