@@ -14,6 +14,7 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { StringInterpolationRevisionComponent } from './string-interpolation-revision/string-interpolation-revision.component';
 import { PropertyBindingReviewComponent } from './property-binding-review/property-binding-review.component';
+import { EventBindingReviewComponent } from './event-binding-review/event-binding-review.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { PropertyBindingReviewComponent } from './property-binding-review/proper
     EventBindingComponent,
     StringInterpolationRevisionComponent,
     PropertyBindingReviewComponent,
+    EventBindingReviewComponent,
   ],
   imports: [
     BrowserModule,
